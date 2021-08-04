@@ -1,6 +1,6 @@
 # Maven
 
-Github: `https://github.com/guodongAndroid/widgets.git`
+Github仓库地址: [Github](https://github.com/guodongAndroid/widgets.git)
 
 ## 1.集成
 
