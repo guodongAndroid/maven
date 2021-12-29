@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.guodong.android",
+    "module": "mask-api",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "5mg36fkgx5cl7g5dqycuats2vi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mask-api-0.0.1.jar",
+          "url": "mask-api-0.0.1.jar",
+          "size": 1253,
+          "sha512": "4833e547d9a555ad39ff1a105405173384164dfa3dab441a170708d843104105f285cb76acfef696864ab0f8fbdffad1f6fbfc331140c8132b101c816e00e4ea",
+          "sha256": "c362fba1a5b2465fe882b00be1d122ce8d39fc85da2d4e5280068e1ad1317607",
+          "sha1": "0d6688b32850c3f9b1aa1bb5e0172892e27cbd59",
+          "md5": "fe3d4e4df61fe389bdc46ea1bc66cdaf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mask-api-0.0.1.jar",
+          "url": "mask-api-0.0.1.jar",
+          "size": 1253,
+          "sha512": "4833e547d9a555ad39ff1a105405173384164dfa3dab441a170708d843104105f285cb76acfef696864ab0f8fbdffad1f6fbfc331140c8132b101c816e00e4ea",
+          "sha256": "c362fba1a5b2465fe882b00be1d122ce8d39fc85da2d4e5280068e1ad1317607",
+          "sha1": "0d6688b32850c3f9b1aa1bb5e0172892e27cbd59",
+          "md5": "fe3d4e4df61fe389bdc46ea1bc66cdaf"
+        }
+      ]
+    }
+  ]
+}
