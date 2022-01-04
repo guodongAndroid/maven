@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.guodong.android",
+    "module": "mask-gradle-plugin",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "orz4fmrpyzf3roosc2wnpkrfca"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mask-gradle-plugin-0.0.3.jar",
+          "url": "mask-gradle-plugin-0.0.3.jar",
+          "size": 23569,
+          "sha512": "b1a04ffd87fa0f02484802a6c675efda982f860151d369e7c45b6a77a603ad07cbef84928643316c6c0bc5f825c4fed4ed0af95b93696f744e0ca34319abe547",
+          "sha256": "63db3228cae2f4da870e123c35839db72a20d676b96a08a2dd4327bd788df7fe",
+          "sha1": "7bb933d1ef693c2fdfc2fc0c73572cb90c791e74",
+          "md5": "114acf5f62e0854f0a164986fdde8ded"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mask-gradle-plugin-0.0.3.jar",
+          "url": "mask-gradle-plugin-0.0.3.jar",
+          "size": 23569,
+          "sha512": "b1a04ffd87fa0f02484802a6c675efda982f860151d369e7c45b6a77a603ad07cbef84928643316c6c0bc5f825c4fed4ed0af95b93696f744e0ca34319abe547",
+          "sha256": "63db3228cae2f4da870e123c35839db72a20d676b96a08a2dd4327bd788df7fe",
+          "sha1": "7bb933d1ef693c2fdfc2fc0c73572cb90c791e74",
+          "md5": "114acf5f62e0854f0a164986fdde8ded"
+        }
+      ]
+    }
+  ]
+}
