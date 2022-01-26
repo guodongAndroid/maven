@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.guodong.android",
+    "module": "mask-api-kt",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "2rhwm3pmsjar5fbobi2lsbaew4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mask-api-kt-0.0.4.jar",
+          "url": "mask-api-kt-0.0.4.jar",
+          "size": 1791,
+          "sha512": "3c36af9c8894d710f862fc031e56f43fe0ee7c40e5235233911ed2cc194fa4de13dfcbc45fe131cf30ddc17bcebde42336e7db27c452e8c83bccdb6e123f080f",
+          "sha256": "ef998d3c8eafa3cfd04cca7c100337168b8b289d7f06944f42dd00f9e7386d49",
+          "sha1": "51b86db0dae2349f9c5084a88f5b86b51b72915a",
+          "md5": "9101637e2e76757abd41bb61381c9ee9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mask-api-kt-0.0.4.jar",
+          "url": "mask-api-kt-0.0.4.jar",
+          "size": 1791,
+          "sha512": "3c36af9c8894d710f862fc031e56f43fe0ee7c40e5235233911ed2cc194fa4de13dfcbc45fe131cf30ddc17bcebde42336e7db27c452e8c83bccdb6e123f080f",
+          "sha256": "ef998d3c8eafa3cfd04cca7c100337168b8b289d7f06944f42dd00f9e7386d49",
+          "sha1": "51b86db0dae2349f9c5084a88f5b86b51b72915a",
+          "md5": "9101637e2e76757abd41bb61381c9ee9"
+        }
+      ]
+    }
+  ]
+}
