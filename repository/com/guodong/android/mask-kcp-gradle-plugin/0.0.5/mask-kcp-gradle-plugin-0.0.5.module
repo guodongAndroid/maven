@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.guodong.android",
+    "module": "mask-kcp-gradle-plugin",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "r5ostvegmvdqlgemo7kb2mudcq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mask-kcp-gradle-plugin-0.0.5.jar",
+          "url": "mask-kcp-gradle-plugin-0.0.5.jar",
+          "size": 4424,
+          "sha512": "e99d46d7d2f0c260d7a4f2d3dc21b938fcbba41f13f2cedf4b889046a4638174883899ffd35e524e447fe1d1138dcbbc0a709b76cbc19528e020260b445496e6",
+          "sha256": "5d6bc56e04d75f7b17c933e07ca0b97b37cd40568416536b8ee0f2c9dbad6a6f",
+          "sha1": "660f6fed4ce780b9beba6c9055abcaa0e13ee099",
+          "md5": "5bfbab69dd04b1fa259537861d297036"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin-api",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mask-kcp-gradle-plugin-0.0.5.jar",
+          "url": "mask-kcp-gradle-plugin-0.0.5.jar",
+          "size": 4424,
+          "sha512": "e99d46d7d2f0c260d7a4f2d3dc21b938fcbba41f13f2cedf4b889046a4638174883899ffd35e524e447fe1d1138dcbbc0a709b76cbc19528e020260b445496e6",
+          "sha256": "5d6bc56e04d75f7b17c933e07ca0b97b37cd40568416536b8ee0f2c9dbad6a6f",
+          "sha1": "660f6fed4ce780b9beba6c9055abcaa0e13ee099",
+          "md5": "5bfbab69dd04b1fa259537861d297036"
+        }
+      ]
+    }
+  ]
+}
